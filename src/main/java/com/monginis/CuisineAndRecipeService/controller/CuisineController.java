@@ -24,7 +24,7 @@ public class CuisineController {
 
     @GetMapping("/basic")
     public List<String> getBasicCuisines() {
-        return Arrays.asList("Chinese", "Italian");
+        return Arrays.asList("Chinese", "Italian", "Indian");
     }
 
     // create new cuisine
